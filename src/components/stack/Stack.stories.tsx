@@ -7,7 +7,7 @@ export default {
     argTypes: {
         numberOfChildren: {type: 'number', defaultValue: 5},
     }
-} as Meta;
+} as Meta<typeof Stack>;
 
 const Template: StoryFn<StackProps & {numberOfChildren: number}> = ({numberOfChildren, ...args}) => 
 
